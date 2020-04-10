@@ -1,0 +1,28 @@
+{
+  "name": "tslint-angular-rxjs",
+  "description": "TSLint config",
+  "main": "index.js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yarik-vv/tslint-angular-rxjs"
+  },
+  "keywords": [
+    "tslint",
+    "tslintconfig"
+  ],
+  "dependencies": {
+    "codelyzer": "^5.2.2",
+    "rxjs-tslint": "^0.1.7",
+    "tslint": "^5.0.0",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-consistent-codestyle": "^1.16.0",
+    "tslint-import-group-ordering": "^2.1.2",
+    "typescript": "^3.4.5"
+  },
+  "peerDependencies": {
+    "tslint": ">= 5.0",
+    "typescript": ">=2.1.0"
+  }
+}
