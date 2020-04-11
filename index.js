@@ -259,7 +259,9 @@ module.exports = {
       // abstract classes must have the prefix "Abstract". The following part of the name must be valid PascalCase
       {"type": "class", "modifiers": "abstract", "prefix": "Abstract"},
       // interface names must start with "I". The following part of the name must be valid PascalCase
-      {"type": "interface", "prefix": "I"}
+      {"type": "interface", "prefix": "I"},
+      // enum properties should be only in UPPER_CASE
+      {"type": "enumMember", "format": "UPPER_CASE"}
     ]
   }
 };
