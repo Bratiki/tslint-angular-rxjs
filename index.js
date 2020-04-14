@@ -150,6 +150,8 @@ module.exports = {
     "space-in-parens": [true, "never"],
 
     // New tslint rules
+    "no-else-after-return": false,
+    "unnecessary-else": false,
     "ter-prefer-arrow-callback": {"severity": "warning"},
     "prefer-template": {"severity": "warning"},
     "ter-indent": false,
@@ -217,10 +219,6 @@ module.exports = {
     "invalid-void": {
       "severity": "warning",
       "options": [{"allow-generics": ["EventEmitter", "Promise", "Observable"]}]
-    },
-    "unnecessary-else": {
-      "severity": "warning",
-      "options": [{"allow-else-if": true}]
     },
     "no-duplicate-variable": {
       "severity": "warning",
