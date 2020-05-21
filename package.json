@@ -2,7 +2,7 @@
   "name": "tslint-angular-rxjs",
   "description": "This package provides TSLint extensible shared configuration for applications that uses Angular with RxJS.",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Bratiki",
   "license": "MIT",
   "repository": {

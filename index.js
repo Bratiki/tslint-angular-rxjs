@@ -24,6 +24,13 @@ module.exports = {
       ]
     },
 
+    "max-line-length": [
+      true,
+      {
+        "limit": 140,
+        "ignore-pattern": "^import |^export {(.*?)}|class [a-zA-Z]+ implements |//"
+      }
+    ],
     "ordered-imports": [
       true,
       {
@@ -71,82 +78,106 @@ module.exports = {
             "name": "reducers",
             "match": "(\\/reducers)",
             "order": 4
-          },{
+          },
+          {
             "name": "selectors",
             "match": "(\\/selectors)",
             "order": 4
-          },{
+          },
+          {
             "name": "modules",
             "match": "(\\.module)",
             "order": 5
-          },{
+          },
+          {
             "name": "pages",
             "match": "(\\/pages)",
             "order": 6
-          },{
+          },
+          {
             "name": "containers",
             "match": "(\\/containers)",
             "order": 7
-          },{
+          },
+          {
             "name": "components",
             "match": "(\\/components)",
             "order": 8
-          },{
+          },
+          {
             "name": "directives",
             "match": "(\\/directives)",
             "order": 9
-          },{
+          },
+          {
             "name": "services",
             "match": "(\\/services)",
             "order": 10
-          },{
+          },
+          {
             "name": "service",
             "match": "(.service)",
             "order": 10
-          },{
+          },
+          {
             "name": "providers",
             "match": "(\\/providers)",
             "order": 11
-          },{
+          },
+          {
             "name": "guards",
             "match": "(\\/guards)",
             "order": 12
-          },{
+          },
+          {
             "name": "pipes",
             "match": "(\\/pipes)",
             "order": 13
-          },{
+          },
+          {
             "name": "utils",
             "match": "(\\/utils)",
             "order": 14
-          },{
+          },
+          {
             "name": "interfaces",
             "match": "(\\/interfaces)",
             "order": 15
-          },{
+          },
+          {
             "name": "models",
             "match": "(\\/models)",
             "order": 16
-          },{
+          },
+          {
             "name": "constants",
             "match": "(\\/constants)",
             "order": 17
-          },{
+          },
+          {
             "name": "ui",
             "match": "(\\/ui)",
             "order": 18
-          },{
+          },
+          {
             "name": "shared",
             "match": "(\\/shared)",
             "order": 19
-          },{
+          },
+          {
             "name": "refs",
             "match": "(\\/refs)",
             "order": 20
-          },{
+          },
+          {
+            "name": "interceptors",
+            "match": "(\\/interceptors)",
+            "order": 21
+          },
+          {
             "name": "other",
             "match": ".*",
-            "order": 21
+            "order": 22
           }
         ]
       }
@@ -179,10 +210,6 @@ module.exports = {
     ],
     "interface-over-type-literal": true,
     "label-position": true,
-    "max-line-length": [
-      true,
-      140
-    ],
     "member-access": false,
     "member-ordering": [
       true,
